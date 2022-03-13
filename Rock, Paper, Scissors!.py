@@ -7,15 +7,6 @@ if ans == 2:
 if ans == 3:
     print('Scissors')
 print('Welcome to Rock Paper Scissors!')
-def rock():
-    if input() == rock():
-        print(ans)
-        if ans == 1:
-            pritn('We were tied!')
-        if ans == 2:
-            print('you were defeated!')
-        if ans == 3:
-            print('you won!!')
 input('Which would you like to choose? \nRock, Paper or scissors?:')
 if input() == 'rock':
     if ans == 1:
