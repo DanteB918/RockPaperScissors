@@ -1,4 +1,5 @@
 import random
+
 ans = random.randint(1, 3)
 if ans == 1:
     print('Rock!')
@@ -7,29 +8,31 @@ if ans == 2:
 if ans == 3:
     print('Scissors')
 print('Welcome to Rock Paper Scissors!')
-input('Which would you like to choose? \nRock, Paper or scissors?:')
-if input() == 'rock':
+
+n = input('Which would you like to choose? \nRock, Paper or scissors?:')
+if n == 'rock':
     if ans == 1:
         print('Rock \nWe were tied!')
     if ans == 2:
         print('Paper \nyou were defeated!')
     if ans == 3:
         print('Scissors \nyou won!!')
-if input() == 'paper':
+if n == 'paper':
     if ans == 1:
         print('Rock \nyou won!!')
     if ans == 2:
         print('Paper \nWe were tied!')
     if ans == 3:
         print('Scissors \nyou were defeated!')
-if input() == 'scissors':
+if n == 'scissors':
     if ans == 1:
         print('Rock \nyou were defeated!')
     if ans == 2:
         print('Paper \nyou won!!')
     if ans == 3:
         print('Scissors \nWe were tied!')
+elif print('Thanks for playing!'):
+    pass
+
 else:
-    print('Thats not an option..')
     quit()
-    
